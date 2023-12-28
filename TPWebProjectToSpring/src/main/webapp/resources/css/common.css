@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: 'font';
+	src: url("/resources/font/notosans.ttf");
+}
+
+*{
+	font-family: 'font';
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+body{ 
+	margin-left: 150px; 
+	margin-right: 150px;
+	margin-bottom: 150px;
+	position: relative;
+	background-color: #FCFEFC;
+}
+
+a{
+	text-decoration: none;
+}

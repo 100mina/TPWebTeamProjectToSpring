@@ -13,42 +13,28 @@
 			src: url("./resources/font/notosans.ttf");
 		}
 		
-		*{
-			font-family: 'font';
-			font-size: 17px;
-			color: black;
-			margin: 0;
-			padding: 0;
-		}
-		
-		body{ 
-			margin-left: 150px; 
-			margin-right: 150px; 
-			position: relative;
-			background-color: #FCFEFC;
-		}
-		
 		#headerContainer{
 			position: relative;
 			display: flex;
 			align-items: center;
+			font-size: 17px;
 		}
 		
 		#mainIcon{
-			margin-right: 2em;		
+			margin-right: 2.5em;		
 		}
 		
 		#headerContainer a{
 			text-decoration: none;
 		}
 		
-		#headerlist{
+		#headerList{
 			list-style: none;
 			display: inline-block;
 			
 		}
 		
-		#headerlist li{
+		#headerList li{
 			display: inline-block;
 			margin: 0px 2em;
 		}
@@ -88,7 +74,6 @@
 		#memberInfo:hover #btnLogout{
 			display: inline-block;
 		}
-		
 	
 	</style>
 </head>
@@ -127,13 +112,8 @@
 			</span>
 		</c:if>
 		
-		
-		
-		
-		
 	</div>
 	
-
 
 </body>
 </html>
