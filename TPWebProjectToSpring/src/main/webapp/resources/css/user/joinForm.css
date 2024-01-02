@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ChosunKm';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'font';
+	src: url("../../font/notosans.ttf");
+}
+
+*{
+	font-family: 'font';
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 24px;
+}
+
+
+
+#imgContainer{
+	position: relative;
+}
+
+#bgimg{
+	height: 100vh;
+	width: 400px;
+}
+
+#iconimg{
+	position: absolute;
+	z-index: 1;
+	left: 120px;
+	top:  150px;
+	width: 150px;
+}
+
+#msg {
+	position: absolute;
+	font-family: 'ChosunKm';
+	left: 100px;
+	top: 70px;
+	font-weight: normal;
+	line-height: 27px;
+}
+
+
+
+#formContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+	padding-bottom: 50px;
+}
+
+h2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+p{
+	margin-left: 30px;
+	font-size: 12px;
+	padding-left: 15px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+}
+
+input {
+	display: block;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding : 15px 10px 15px 10px;
+	border-radius: 16px;
+	border: 0.3px solid #888888;
+}
+
+#submit {
+	background-color: #F5FFF2;
+	width: 81%;
+}
+
+#submit:hover {
+	cursor: pointer;
+}
+

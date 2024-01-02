@@ -96,8 +96,8 @@
 		
 		<c:if test="${empty sessionScope.user }">
 			<span class="memberInfo">
-				<a href="" id="login">로그인</a>
-				<a href="" id="join">회원가입</a>
+				<a href="loginForm" id="login">로그인</a>
+				<a href="joinForm" id="join">회원가입</a>
 			</span>
 		</c:if>
 		
