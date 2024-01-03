@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: 'font';
+	src: url("../../../resources/font/notosans.ttf");
+}
+
+*{
+	font-family: 'font';
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#selectForm{
+	margin-left: 35%;
+	padding-top: 50px;
+}
+
+h2,h3,h5{
+	padding: 5px;
+}
+
+form{
+	display: inline;
+}
+
+#btn,#submit{
+	position: relative;
+	text-align: center;
+	background-color: #88888888;
+	padding: 8px;
+	border-radius: 12px;
+	font-size: 10px;
+	color: white;
+	width: 8em;
+	border: none;
+	margin: 10px 4px;
+}
+
+#profile{
+	border: 0.3px solid #B09090;
+	border-radius: 50%; 
+	height: 150px; 
+	width: 150px;
+}
+
+hr{
+	size: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 100);
+	margin-top: 40px;
+	height: 2px;
+	background-color: #88888888;
+}
+
+#bgimg{
+	width: 100%;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+   
+<mapper namespace="mapper.user">
+
+	<!-- 회원가입 -->
+	<insert id="insertUser" parameterType="UserVO">
+		<![CDATA[
+			INSERT INTO USERS(USER_ID, USER_PW, USER_NICKNAME)
+			VALUES(#{userId}, #{userPw}, #{userNickname})
+		]]>
+	</insert>
+	
+	<!-- 회원 프로필 설정 -->
+	<update id="updateUserProfileImg" parameterType="UserVO">
+		<![CDATA[
+			UPDATE USERS SET USER_PROFILE_PATH=#{userProfilePath}
+			WHERE USER_ID=#{userId}
+		]]>
+	</update>
+
+</mapper>
+

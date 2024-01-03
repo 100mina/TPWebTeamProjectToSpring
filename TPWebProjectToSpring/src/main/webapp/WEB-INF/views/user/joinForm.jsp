@@ -26,11 +26,11 @@
 			<h2>취업의 神 회원가입</h2>
 			<form action="join" method="post" enctype="application/x-www-form-urlencoded">
 				<p>아이디</p>
-				<input type="text" name="id">
+				<input type="text" name="user_id">
 				<p>비밀번호</p>
-				<input type="password" name="pw">
+				<input type="password" name="user_pw">
 				<p>닉네임</p>
-				<input type="text" name="nickname"><br>
+				<input type="text" name="user_nickname"><br>
 				<input type="submit" value="회원가입" id="submit">
 			</form>
 		</div>
